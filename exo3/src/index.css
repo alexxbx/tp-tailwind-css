@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.desktop-grid{
+@apply grid grid-cols-1 gap-5 hover:animate-pulse bg-slate-400 w-48 h-48 rounded border-black border-solid border-2;
+}
